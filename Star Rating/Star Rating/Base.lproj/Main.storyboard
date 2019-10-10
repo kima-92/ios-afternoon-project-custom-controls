@@ -11,8 +11,8 @@
         <scene sceneID="4HS-eH-eAL">
             <objects>
                 <navigationController id="tSj-xE-jec" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4ok-gN-Mc4">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="4ok-gN-Mc4">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-526" y="125"/>
         </scene>
-        <!--View Controller-->
+        <!--Text-->
         <scene sceneID="yju-cU-XU9">
             <objects>
                 <viewController id="1OJ-Sm-LTA" customClass="ViewController" customModule="Star_Rating" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,7 +46,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lS8-KJ-dxj"/>
                     </view>
-                    <navigationItem key="navigationItem" id="GFP-wY-OQr"/>
+                    <navigationItem key="navigationItem" title="Text" id="GFP-wY-OQr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LYY-Rd-OKL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

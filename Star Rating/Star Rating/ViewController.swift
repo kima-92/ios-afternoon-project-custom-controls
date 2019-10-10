@@ -21,7 +21,8 @@ class ViewController: UIViewController {
     @IBAction func updateRating(_ ratingControl: CustomControl) {
         
         //Stretch: Fix the title so it's correct for 1 ("star" not "stars") as well as 2-5.
-        title = "User Rating: \(customControl.value) stars"
+        navigationItem.title = "User Rating: \(customControl.value) stars"
+    
     }
     
     /*
