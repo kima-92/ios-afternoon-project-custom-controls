@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+@IBDesignable
 class CustomControl: UIControl {
     var value: Int = 1
     
@@ -32,6 +33,14 @@ class CustomControl: UIControl {
             
             addSubview(newLabel)
             labels.append(newLabel)
+            
+
         }
+        
+        labels[1].frame = CGRect(x: 8.0, y: 0, width: componentDimension, height: componentDimension)
+        
+        
+        
+        
     }
 }

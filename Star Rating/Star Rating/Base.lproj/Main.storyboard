@@ -33,6 +33,7 @@
                         <subviews>
                             <view verifyAmbiguity="ignoreSizes" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xiu-JW-DGQ" customClass="CustomControl" customModule="Star_Rating" customModuleProvider="target">
                                 <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="updateRating:" destination="1OJ-Sm-LTA" eventType="valueChanged" id="ZTd-OB-87R"/>
@@ -40,10 +41,6 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Xiu-JW-DGQ" firstAttribute="centerY" secondItem="Por-Q5-o6e" secondAttribute="centerY" id="2fz-Pm-eUW"/>
-                            <constraint firstItem="Xiu-JW-DGQ" firstAttribute="centerX" secondItem="Por-Q5-o6e" secondAttribute="centerX" id="RDn-QA-eQ9"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lS8-KJ-dxj"/>
                     </view>
                     <navigationItem key="navigationItem" title="Text" id="GFP-wY-OQr"/>
